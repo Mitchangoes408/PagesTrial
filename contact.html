@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Mitchangoes</title>
+    <title>Mitchangoes - Contact Me</title>
 
     <style type="text/css">
       * {
@@ -85,9 +85,22 @@
         color: white;
       }
 
+      .submitButton {
+        border-radius: 20px;
+        font-size: 16px;
+        padding: 10px 24px;
+        background-color: rgba(151, 154, 154, 0.85);
+        border: rgba(0, 0, 0, 1);
+      }
+
+      textarea {
+        font-family: Calibri, sans-serif;
+        font-size: 16px;
+        background-color: rgba(151, 154, 154, 0.85);
+        font-style: oblique;
+      }
+
     </style>
-
-
 
   </head>
   <body>
@@ -109,14 +122,41 @@
           <a href="contact.html">Contact Me</a>
         </div>
 
-        <h1>Wee Wooo</h1>
+        <h1>Email Form</h1>
+
+        <p>
+            <textarea id = "userEmail"
+                rows = "1"
+                cols = "100">Your email</textarea>
+        </p>
+
+        <p>
+            <textarea id = "subject"
+                rows = "1"
+                cols = "100">Subject</textarea>
+        </p>
+
+        <p>
+            <textarea id = "textBody"
+                rows = "8"
+                cols = "100">Enter text</textarea>
+        </p>
+
+        <p>
+          <button class="submitButton" id="submitButton" onclick="myFunction()" >Submit</button>
+        </p>
+
+
+
+
+
 
       </div>
 
 
       <script>
         function myFunction() {
-          document.
+
         }
 
       </script>
